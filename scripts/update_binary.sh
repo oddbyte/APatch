@@ -15,8 +15,8 @@ ui_print "- Powered by Apatch"
 solt=$(getprop ro.boot.slot_suffix)
 if [ -d solt ]; then
 	ui_print "*********************************************************"
-    ui_print "! Your solt is not set,maybe your device is not support A/B"
-    ui_print "! Please backup your devices"
+    ui_print "! Your slot is not set, maybe your device does not support A/B"
+    ui_print "! Please backup your device"
 	ui_print "*********************************************************"
 fi
 
